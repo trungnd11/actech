@@ -473,6 +473,23 @@ hero-btn {
 #scrollUp, #back-top i {
     color: #f15f22;
 }
+
+#message-social {
+    background: #f1602200;
+    height: 50px;
+    width: 50px;
+    right: 31px;
+    bottom: 100px;
+    position: fixed;
+    z-index: 10;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 48px;
+    box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+}
+
 @media (max-width: 575px) {
     #scrollUp, #back-top {
     right: 16px;
@@ -1983,7 +2000,7 @@ to {
     padding: 15px 0px;
 }
 }.header-area {
-    background: #000c20;
+    background: #131b2d;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-area {
@@ -2124,7 +2141,7 @@ to {
     -o-transform: rotateY(180deg);
 }
 .header-sticky.sticky-bar {
-    background: #000;
+    background: #131b2d;
 }
 .header-sticky.sticky-bar.sticky .main-menu ul li a {
     padding: 20px 20px !important;
@@ -3023,7 +3040,7 @@ to {
     font-size: 14px;
 }
 }.footer-area {
-    background: #121212;
+    background: #131b2d;
 }
 .footer-area .footer-heading {
     padding-bottom: 51px;
@@ -3037,6 +3054,10 @@ to {
     line-height: 1.2;
     font-family: "Barlow", sans-serif;
     margin: 0;
+}
+
+.footer-area .footer-heading .address {
+    line-height: 2.1;
 }
 
 .footer-area .footer-heading .address span {

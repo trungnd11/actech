@@ -232,6 +232,13 @@
       }
 
 
-
+      function addStyleBtnHome() {
+        $("#message-social-fb").addClass("isActive-fb");
+        setTimeout(function() {
+          $("#message-social-fb").removeClass("isActive-fb");
+        }, 2300)
+      }
+  
+      setInterval(() => addStyleBtnHome(), 1500);
 
 })(jQuery);

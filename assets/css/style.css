@@ -490,6 +490,12 @@ hero-btn {
     box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
 }
 
+.isActive-fb {
+    font-size: 55px !important;
+    transition: all 0.6s ease-out;
+    color: #f15f22 !important;
+}
+
 @media (max-width: 575px) {
     #scrollUp, #back-top {
     right: 16px;
@@ -2109,6 +2115,7 @@ to {
     color: #f15f22;
     background: none;
     padding-left: 13px !important;
+    transition: all .3s ease-out 0s;
 }
 .main-header ul>li:hover>ul.submenu {
     visibility: visible;

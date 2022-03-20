@@ -12,13 +12,17 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body class="img js-fullheight" style="background-image: url(images/bg.jpg);">
+    <div class="btn-home" style="margin: 10px; position: fixed;">
+		<a id="btn-return-home" href="/index.html" class="btn-style btn-style-home"><i class="fas fa-home"
+				style="padding-right: 5px;"></i>Trang chủ</i></a>
+	</div>
     <section class="ftco-section">
         <div class="container form-login">
             <div class="row justify-content-center">
@@ -81,7 +85,16 @@
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+		function addStyleBtnHome() {
+			$("#btn-return-home").addClass("isActiveBtnStyle");
+			setTimeout(function() {
+				$("#btn-return-home").removeClass("isActiveBtnStyle");
+			}, 2300)
+		}
 
+		setInterval(() => addStyleBtnHome(), 1500);
+	</script>
 </body>
 
 </html>

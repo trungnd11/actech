@@ -8355,3 +8355,53 @@ textarea.form-control {
         border: 1px solid transparent;
         background: #fbceb5;
         color: #fff; }
+
+
+.btn-style {
+  background: #000c2000;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
+  -moz-user-select: none;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 0;
+  margin-bottom: 0;
+  margin: 10px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  position: relative;
+  z-index: 1;
+  border: 0;
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid #fff;
+}
+
+.btn-style-home {
+  transition: all 0.25s ease-out;
+}
+
+.btn-style-home:hover {
+  position: relative;
+  top: -3px;
+  box-shadow: -6px 14px 12px 2px rgba(90, 90, 90, .12);
+  color: #f1693e;
+}
+
+.isActiveBtnStyle {
+  position: relative;
+  top: -2px;
+  box-shadow: -6px 14px 12px 2px rgba(90, 90, 90, .12);
+  color: #fd7e14;
+  border: 1px solid #f1693e;
+  padding: 18px 28px;
+  transition: all 0.9s ease-out;
+  z-index: 100;
+  
+}

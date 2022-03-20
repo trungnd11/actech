@@ -23,4 +23,13 @@
 	  }
 	});
 
+	function addStyleBtnHome() {
+		$("#btn-return-home").addClass("isActiveBtnStyle");
+		setTimeout(function() {
+			$("#btn-return-home").removeClass("isActiveBtnStyle");
+		}, 500);
+	}
+
+	setInterval(addStyleBtnHome(), 500);
+
 })(jQuery);

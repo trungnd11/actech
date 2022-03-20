@@ -3463,6 +3463,10 @@ to {
     .footer-area .footer-heading {
         margin-bottom: 5px;
     }
+
+    iframe {
+        width: 573px !important;
+    }
     
     .footer-logo a>img {
         width: 40% !important;
@@ -3479,6 +3483,10 @@ to {
 
     .footer-area .footer-heading {
         margin-bottom: 5px;
+    }
+
+    iframe {
+        width: 373px !important;
     }
 
     .footer-logo a>img {
